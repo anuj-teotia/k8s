@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: quay.io/fairwinds/k8s-workshop:latest
+          image: anujteotia/k8s-workshop:v1
           command: ["ruby", "app/app.rb"]
           imagePullPolicy: IfNotPresent
           livenessProbe:
