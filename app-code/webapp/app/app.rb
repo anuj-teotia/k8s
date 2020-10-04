@@ -29,7 +29,7 @@ end
 
 get '/' do
 
-  output = 'Hello from Kubernetes! I am v1 and serving from pod: ' + `hostname`.strip
+  output = 'Hello from Kubernetes! I am v2 and serving from pod: ' + `hostname`.strip
   output += "\n"
   return output
 end
